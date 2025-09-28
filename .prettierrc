@@ -2,6 +2,6 @@
     "single": true,
     "arrowParens": "avoid",
     "prindWidth": 80,
-    "tabWidth": 2,
+    "tabWidth": 3,
     "semi": true
 }
