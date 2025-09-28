@@ -5,14 +5,21 @@ const overlay = document.querySelector('.overlay');
 const closeBtn = document.querySelector('.close-modal');
 const openBtns = document.querySelectorAll('.show-modal');
 
-function openModal() {
+let lastBtn = null;
+
+function openModal(event) {
   modal.classList.remove('hidden');
   overlay.classList.remove('hidden');
+  lastBtn = event.target;
+  modal.focus();
 }
 
 function closeModal() {
   modal.classList.add('hidden');
   overlay.classList.add('hidden');
+  if (lastBtn) {
+    lastBtn.focus();
+  }
 }
 
 for (let i = 0; i < openBtns.length; i++) {
@@ -27,3 +34,8 @@ document.addEventListener('keydown', function (e) {
     closeModal();
   }
 });
+
+// basic accessibility
+modal.setAttribute('role', 'dialog');
+modal.setAttribute('aria-modal', 'true');
+closeBtn.setAttribute('aria-label', 'Close modal');
