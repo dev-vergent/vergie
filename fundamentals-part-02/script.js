@@ -607,3 +607,4 @@ document.querySelector("#winning-score").addEventListener("change", function () 
   gameState.resetGame();
 });
 
+// update 02
