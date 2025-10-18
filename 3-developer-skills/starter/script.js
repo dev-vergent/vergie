@@ -323,5 +323,3 @@ function printForecastReduce(arr) {
 console.log("Alternative methods:");
 printForecastMap(data1);
 printForecastReduce(data1);
-    
-// 03 update
