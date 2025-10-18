@@ -1,7 +1,7 @@
 {
     "single": true,
     "arrowParens": "avoid",
-    "prindWidth": 80,
+    "prindWidth": 70,
     "tabWidth": 3,
     "semi": true
 }
