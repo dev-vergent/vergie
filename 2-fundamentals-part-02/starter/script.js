@@ -606,3 +606,5 @@ document.querySelector("#winning-score").addEventListener("change", function () 
   document.querySelector(".target").textContent = this.value;
   gameState.resetGame();
 });
+
+// cleaning up code and organizing game logic into the gameState object for better structure and maintainability.
