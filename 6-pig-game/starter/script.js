@@ -97,3 +97,5 @@ btnHold.addEventListener('click', function () {
 
 // New game
 btnNew.addEventListener('click', startGame);
+
+// cleanup code and organizing game logic into the gameState object for better structure and maintainability.
