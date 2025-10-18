@@ -120,3 +120,5 @@ window.addEventListener('keydown', function (e) {
 againBtnEl.addEventListener('click', function () {
   guessInputEl.focus();
 });
+
+// cleanup code and organizing game logic into the gameState object for better structure and maintainability.
