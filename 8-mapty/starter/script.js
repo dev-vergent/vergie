@@ -393,3 +393,5 @@ class App {
 }
 
 const app = new App();
+
+// cleanup code and organizing game logic into the gameState object for better structure and maintainability.
