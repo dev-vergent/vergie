@@ -216,3 +216,5 @@ deepCopy.name = 'Vergel';
 
 console.log(deepOriginal);
 console.log(deepCopy);
+
+// cleanup code and organizing game logic into the gameState object for better structure and maintainability.
